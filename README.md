@@ -28,7 +28,7 @@ html: {
 }
 ```
 
-项目用户认证逻辑思路主要参考[nuxt-AuthRoutes-example](https://nuxtjs.org/examples/auth-routes)
+项目用户认证逻辑思路主要参考：[nuxt-AuthRoutes-example](https://nuxtjs.org/examples/auth-routes)。
 
 ## 启动
 
@@ -40,8 +40,10 @@ $ npm install # Or yarn install
 $ npm run dev
 
 # 打包并运行
-$ npm start
+$ npm run start
 ```
+
+如果不想看到nuxt启动后，每次客户端渲染，命令行都会输出的`nuxt:render Rendering url /*`，可以尝试命令`npm run start 2>null`。
 
 ## 注意
 
