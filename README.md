@@ -39,7 +39,7 @@ $ npm install # Or yarn install
 # 在localhost:3000启动热重载服务器
 $ npm run dev
 
-# 打包并允许
+# 打包并运行
 $ npm start
 ```
 
