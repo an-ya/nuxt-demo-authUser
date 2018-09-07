@@ -1,0 +1,85 @@
+html, body
+{
+  display: block;
+  background-color: #fff;
+  color: #000;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  font-family: Microsoft YaHei,"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  height: 100vh;
+  margin: 0;
+}
+
+div {
+  display: block;
+}
+
+a {
+  text-decoration:none;
+}
+
+footer
+{
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.flexBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-enter-active, .page-leave-active {
+  transition: opacity .3s;
+}
+
+.page-enter, .page-leave-active {
+  opacity: 0;
+}
+
+/*
+    移动端兼容配置
+*/
+@media only screen and (max-width:480px){
+  html{
+    font-size:8px!important
+  }
+
+  .body-container {
+    font-size: 14px!important;
+  }
+}
+
+@media only screen and (min-width:480px) and (max-width:568px){
+  html{
+    font-size:9px!important
+  }
+
+  .container {
+    font-size: 13px!important;
+  }
+}
+
+@media only screen and (min-width:568px) and (max-width:640px){
+  html{
+    font-size:11px!important
+  }
+
+  .container {
+    font-size: 12px!important;
+  }
+}
+
+@media only screen and (min-width:640px) and (max-width:667px){
+  html{
+    font-size:12.5px!important
+  }
+}
+
+@media only screen and (min-width:667px) and (max-width:736px){
+  html{
+    font-size:14px!important
+  }
+}
