@@ -43,7 +43,7 @@ $ npm run dev
 $ npm run start
 ```
 
-如果不想看到nuxt启动后，每次客户端渲染，命令行都会输出的`nuxt:render Rendering url /*`，可以尝试命令`npm run start 2>null`。
+如果不想看到nuxt启动后，每次服务器端渲染，命令行都会输出的`nuxt:render Rendering url /*`，可以尝试命令`npm run start 2>null`启动。
 
 ## 注意
 
